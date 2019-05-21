@@ -2,7 +2,7 @@
 
 import git
 
-class GitBuild:
+class Git:
     repo = git.Repo("{Your clone PATH}")
     repo.git.pull("{Name of repo}", "{Which Branch}")
 
